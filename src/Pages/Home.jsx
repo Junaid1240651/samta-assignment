@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import PlayerName from "../Components/TicTacToe/playerName";
+import "../index.css";
 
 const Home = () => {
   const navigate = useNavigate();
